@@ -1,0 +1,104 @@
+
+img.links {
+    float: left;
+}
+
+img.rechts {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1.text,
+h3.text {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+html {
+    background-image: url("../IMG/titel2.jpeg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    color: beige;
+    height: 120%;
+}
+
+div.ttl img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+img {
+    width: 30%;
+}
+
+img.hero {
+    width: 80%;
+}
+
+.embed-container { 
+    margin-top: 15rem;
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 20; 
+    width: 80%; 
+    height: 80%;
+
+}
+
+.container {
+    position: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+.container img {
+    width: 100%;
+    height: auto;
+  }
+  
+.btn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gold;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+.btn:hover {
+    background-color: #566d8d;
+    color: gold;
+  }
+  

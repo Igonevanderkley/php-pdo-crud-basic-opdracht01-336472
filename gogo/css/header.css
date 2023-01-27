@@ -1,0 +1,195 @@
+/*gestart met een compleet blank canvas */
+/* * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} */
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #1d2735;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header img {
+    height: 2rem;
+}
+
+/* .inner_header {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #273850;
+} */
+
+.menu {
+    float: left;
+    height: 100%;
+    background-color: #374962;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+.menu a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: Ridley Grotesk W05 Regular, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+.menu a:last-child {
+    background-color: gold;
+    border-radius: 20px;
+
+}
+
+.menu li.last {
+    color: #374962;
+
+}
+
+.menu li.last:hover {
+    color: gold;
+
+}
+
+.menu a.normal:last-child:hover {
+    background-color: #566d8d;
+    border-radius: 20px;
+}
+
+.menu a li:hover {
+    color: gold;
+}
+
+.menu a:hover {
+    background-color: #566d8d;
+    border-radius: 20px;
+    color: gold;
+}
+
+/* .menu :last-child {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+
+} */
+
+.logo img {
+    /* display: inline; */
+    width: 20px;
+    height: 100%;
+    /* margin: -30px auto; */
+    /* padding: 0px 20px; */
+}
+.logo {
+    position: absolute;
+}
+.logo img:hover {
+    width: 30px;
+    margin: -30px auto;
+}
+
+
+.socialMedia img {
+    display: inline;
+    width: 20px;
+    height: auto;
+    float: right;
+    margin: 0 15px;
+}
+
+div#countDownClock {
+    color: white;
+    float: right;
+    background-color: #374962;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: Ridley Grotesk W05 Regular, sans-serif;
+}
+
+div#countDownClock:hover {
+    color: gold;
+    background-color: #566d8d;
+}
+
+p.Until {
+    color: white;
+    float: right;
+    display: column;
+}
+
+div.background {
+    background-color: yellow;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 50;
+}
+
+#parent {
+    position: relative;
+}
+
+
+/* dropdown
+.dropdown-content {
+    display: none;
+}
+
+li.information:hover .dropdown-content{
+    display: block;
+}
+
+.menu li.information {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: Ridley Grotesk W05 Regular, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+a.dropdown  {
+    color: red;
+}
+ */
