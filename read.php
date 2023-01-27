@@ -51,6 +51,12 @@
                     <td>$info->Achternaam</td>
                     <td>$info->haarkleur</td>
                     <td>$info->geboortedatum</td>
+                    <td>$info->Telefoonnummer</td>
+                    <td>$info->Straatnaam</td>
+                    <td>$info->Huisnummer</td>
+                    <td>$info->Woonplaats</td>
+                    <td>$info->Postcode</td>
+                    <td>$info->Landnaam</td>
                     <td>
                     <a href='delete.php?Id=$info->Id'>
                         <img src='img/b_drop.png' alt='kruis'>
@@ -92,6 +98,12 @@
         <th>Achternaam</th>
         <th>haarkleur</th>
         <th>geboortedatum</th>
+        <th>telefoonnummer</th>
+        <th>straatnaam</th>
+        <th>huisnummer</th>
+        <th>woonplaats</th>
+        <th>postcode</th>
+        <th>landnaam</th>
         <th></th>
         <th></th>
     <t/head>
