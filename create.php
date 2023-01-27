@@ -25,13 +25,25 @@ $sql = "INSERT INTO Persoon (Id
                             ,Tussenvoegsel
                             ,Achternaam
                             ,haarkleur
-                            ,geboortedatum)
+                            ,geboortedatum
+                            ,Telefoonnummer
+                            ,Straatnaam
+                            ,Huisnummer
+                            ,Woonplaats
+                            ,Postcode
+                            ,Landnaam)
         VALUES              (NULL
                             ,:voornaam 
                             ,:tussenvoegsel
                             ,:achternaam
                             ,:haarkleur
-                            ,:geboortedatum);";  
+                            ,:geboortedatum
+                            ,:telefoonnummer
+                            ,:straatnaam
+                            ,:huisnummer
+                            ,:woonplaats
+                            ,:postcode
+                            ,:landnaam);";  
 
 
 //We bereiden de sql-query voor mert de method prepare 
@@ -42,6 +54,13 @@ $statement->bindValue(':tussenvoegsel', $_POST['infix'], PDO::PARAM_STR);
 $statement->bindValue(':achternaam', $_POST['lastname'], PDO::PARAM_STR);
 $statement->bindValue(':haarkleur', $_POST['haircolor'], PDO::PARAM_STR);
 $statement->bindValue(':geboortedatum', $_POST['dateofbirth'], PDO::PARAM_STR);
+$statement->bindValue(':telefoonnummer', $_POST['phonenumber'], PDO::PARAM_STR);
+$statement->bindValue(':straatnaam', $_POST['streetname'], PDO::PARAM_STR);
+$statement->bindValue(':huisnummer', $_POST['housenumber'], PDO::PARAM_STR);
+$statement->bindValue(':woonplaats', $_POST['city'], PDO::PARAM_STR);
+$statement->bindValue(':postcode', $_POST['zipcode'], PDO::PARAM_STR);
+$statement->bindValue(':landnaam', $_POST['countryname'], PDO::PARAM_STR);
+
 
 
 
