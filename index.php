@@ -46,7 +46,7 @@
         <input type="text" name="zipcode" id="zipcode"><br>
 
         <label for="countryname">Landnaam:</label><br>
-        <input type="text" name="countryname" id="countryname"><br>
+        <input type="text" name="countryname" id="countryname"><br><br>
 
         <input type="submit" value="Send!">
 
