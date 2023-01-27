@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $statement->execute();
 
         //stuur gebruiker door naar read.php met een header(Refresh) functie;
-        echo 'update volotooid';
+        echo 'update voltooid';
         header('Refresh:3; url=read.php');
     } catch (PDOException $e) {
         echo 'Update niet voltooid';
