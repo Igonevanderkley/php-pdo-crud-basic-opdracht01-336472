@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $statement->bindValue(':zipcode', $_POST['zipcode'], PDO::PARAM_STR);
         $statement->bindValue(':countryname', $_POST['countryname'], PDO::PARAM_STR);
         $statement->bindValue(':id', $_POST['id'], PDO::PARAM_STR);
-        
+
         $statement->execute();
 
         //stuur gebruiker door naar read.php met een header(Refresh) functie;

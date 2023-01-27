@@ -43,7 +43,7 @@ $sql = "INSERT INTO Persoon (Id
                             ,:huisnummer
                             ,:woonplaats
                             ,:postcode
-                            ,:landnaam);";  
+                            ,:landnaam);";
 
 
 //We bereiden de sql-query voor mert de method prepare 
@@ -75,4 +75,3 @@ if ($result) {
     echo "Er is geen nieuw record gemaakt.";
     header('Refresh:2; url=read.php');
 }
- 
